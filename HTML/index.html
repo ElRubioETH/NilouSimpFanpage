@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="Nilou" href="Nilou.png"
+    <title>ManhBui | Cyberpunk Profile</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font import for a futuristic look -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>ManhBui</h1>
+        <p>Newbie Developer | Student | Tech Enthusiast</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm ManhBui, a 20-year-old student studying at FPT College. I am passionate about coding, technology, and creating futuristic digital experiences.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>C#</li>
+            <li>Unity</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p> CyberFive/The Core 
+                <a href="https://github.com/ElRubioETH/CyberFive_" target="_blank"></a> 
+            </p>
+            <button onclick="window.open('https://github.com/ElRubioETH/CyberFive_', '_blank')">View More</button>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of another cyber-themed project.</p>
+            <button onclick="window.open('https://youtu.be/7TD3E18YAzg')">View More</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect and create something futuristic together.</p>
+
+        <form action="send_email.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <p>Phone: 0357844011</p>
+        <p>Facebook: <a href="https://www.facebook.com/manhbui204/" target="_blank">ManhBui</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ManhBui. All rights reserved.</p>
+    </footer>
+</body>
+</html>

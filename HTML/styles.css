@@ -1,0 +1,138 @@
+/* Basic reset and font setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background: #151515;
+    width: 100%;
+    box-shadow: 0 0 10px #00ffea;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #00ffea;
+    text-shadow: 0 0 20px #00ffea, 0 0 30px #00ffea;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ffea;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff00ff;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #333;
+}
+
+/* About Section */
+#about {
+    background: #1a1a1a;
+    box-shadow: 0 0 15px #00ffea;
+}
+
+/* Skills Section */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#skills li {
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00ffea;
+}
+
+/* Projects Section */
+.project {
+    background: #121212;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00ffea;
+}
+
+button {
+    background: #00ffea;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #ff00ff;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #00ffea;
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background: #00ffea;
+    border: none;
+    padding: 10px;
+    color: #000;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: #ff00ff;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    color: #555;
+}
